@@ -11,6 +11,8 @@ for i=1:nE
     cdE(i,:) = calDEFinal(kps2,E_all{i},kps1)+calDEFinal(kps1,E_all{i}',kps2);    
 end
 
+%TODO
+
 function algNorm = calDEFinal(kps1_,Emat,kps2_)
 %CALALGEBRAERROR Summary of this function goes here
 %   Detailed explanation goes here

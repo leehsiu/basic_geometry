@@ -38,7 +38,7 @@ disp("If RMSE is near zero, the function is correct!");
 % expects row data
 function [R,t] = rigid_transform_3D(A, B)
     if nargin ~= 2
-	    error("Missing parameters");
+	    error('Missing parameters');
     end
 
 
